@@ -162,5 +162,3 @@ cython_debug/
 #.idea/
 <<<<<<< HEAD
 =======
-settings.py
->>>>>>> e46be59 (postgres BD instanciado em container)
