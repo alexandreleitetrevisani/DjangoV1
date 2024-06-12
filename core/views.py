@@ -1,9 +1,5 @@
-from django.views.generic import TemplateView
 
 
-class IndexView(TemplateView):
-    template_name = 'index.html'
-"""
 from django.views.generic import FormView
 
 
@@ -34,4 +30,3 @@ class IndexView(FormView):
         messages.error(self.request, 'Erro ao enviar e-mail')
         return super(IndexView, self).form_invalid(form, *args, **kwargs)
 
-"""
